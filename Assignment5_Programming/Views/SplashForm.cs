@@ -16,5 +16,13 @@ namespace Assignment5_Programming.Views
         {
             InitializeComponent();
         }
+
+        private void SplashTimer_Tick(object sender, EventArgs e)
+        {
+            this.Hide();
+            StartForm startForm = new StartForm();
+            startForm.Show();
+            SplashTimer.Enabled = false;
+        }
     }
 }

@@ -33,7 +33,7 @@ namespace Assignment5_Programming.Views
             orderForm = new OrderForm();
             aboutForm = new AboutForm();
 
-            Application.Run(selectForm);
+            Application.Run(new SplashForm());
         }
     }
 }
