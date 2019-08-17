@@ -7,6 +7,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+/* Name: Gurleen Kaur 
+ * Student Number 301047536
+ * Description: this is an event handler for productInfoform 
+ */
 
 namespace Assignment5_Programming.Views
 {

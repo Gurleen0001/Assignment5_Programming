@@ -6,7 +6,10 @@ using System.Linq;
 using System.Reflection;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+/* Name: Gurleen Kaur 
+ * Student Number 301047536
+ * Description: this is an event handler for aboutform
+ */
 namespace Assignment5_Programming.Views
 {
     public partial class AboutForm : Form
