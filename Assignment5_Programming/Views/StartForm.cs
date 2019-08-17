@@ -16,5 +16,22 @@ namespace Assignment5_Programming.Views
         {
             InitializeComponent();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void StartButton_Click(object sender, EventArgs e)
+        {
+            Program.selectForm.Show();
+            this.Hide();
+            
+        }
+
+        private void ExitButton_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

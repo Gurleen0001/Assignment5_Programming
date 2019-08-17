@@ -17,12 +17,17 @@ namespace Assignment5_Programming.Views
             InitializeComponent();
         }
 
-        private void SplashTimer_Tick(object sender, EventArgs e)
+        private void SplashScreenTimer_Tick(object sender, EventArgs e)
         {
+            SplashScreenTimer.Enabled = false;
+            
+            Program.startForm.Show();
             this.Hide();
-            StartForm startForm = new StartForm();
-            startForm.Show();
-            SplashTimer.Enabled = false;
+        }
+
+        private void SplashForm_Load(object sender, EventArgs e)
+        {
+            SplashScreenTimer.Enabled = true;
         }
     }
 }

@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Assignment5_Programming.Models;
+using Assignment5_Programming.Views;
+using Assignment5_Programming.Properties;
 
 namespace Assignment5_Programming.Views
 {
@@ -14,7 +17,8 @@ namespace Assignment5_Programming.Views
         public static SelectForm selectForm;
         public static ProductInfoForm productInfoForm;
         public static OrderForm orderForm;
-        public static AboutForm aboutForm;
+
+        public static Product product;
 
         /// <summary>
         /// The main entry point for the application.
@@ -27,13 +31,14 @@ namespace Assignment5_Programming.Views
 
             // form instantiating here
             splashForm = new SplashForm();
-            startForm = new StartForm();
             selectForm = new SelectForm();
+            startForm = new StartForm();
             productInfoForm = new ProductInfoForm();
             orderForm = new OrderForm();
-            aboutForm = new AboutForm();
 
-            Application.Run(new SplashForm());
+            product = new Product();
+            
+            Application.Run(splashForm);
         }
     }
 }

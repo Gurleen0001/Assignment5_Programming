@@ -16,5 +16,37 @@ namespace Assignment5_Programming.Views
         {
             InitializeComponent();
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Next_Button_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Program.orderForm.Show();
+        }
+
+        private void Cancel_Button_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void SelectAnother_Button_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Program.selectForm.Show();
+        }
     }
 }
