@@ -50,12 +50,13 @@
             // 
             // DollarLabel
             // 
-            this.DollarLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DollarLabel.Location = new System.Drawing.Point(159, 18);
+            this.DollarLabel.Font = new System.Drawing.Font("Algerian", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DollarLabel.ForeColor = System.Drawing.Color.DarkTurquoise;
+            this.DollarLabel.Location = new System.Drawing.Point(84, 36);
             this.DollarLabel.Name = "DollarLabel";
-            this.DollarLabel.Size = new System.Drawing.Size(479, 94);
+            this.DollarLabel.Size = new System.Drawing.Size(618, 65);
             this.DollarLabel.TabIndex = 1;
-            this.DollarLabel.Text = "Dollar Computer";
+            this.DollarLabel.Text = "WECOME! TO Dollar Computers";
             // 
             // SplashScreenTimer
             // 
